@@ -1,0 +1,116 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.date {
+    color: #595959;
+    text-align: center;
+    float: top;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.header-image {
+    padding: 0 0 2px 2px;
+    text-align: center;
+}
+
+.header-text{
+    color: #595959;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: rgb(255, 230, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+
+}
+
+.asana{
+    color: #595959;
+    padding: 0 0 2px 2px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.asana-list{
+    color: #595959;
+    padding: 0 0 2px 2px;
+    text-align: center;
+}
+
+.unit {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(11, 98, 60, 0.736);
+    letter-spacing: 4px;
+}
+
+ul{
+    border-style: dotted;
+    border-color: rgba(0, 255, 145, 0.316);
+    border-width: 2px;
+    letter-spacing: 2px;
+}
+
+.asana-examples{
+    color: #595959;
+    display: flex;
+    font-size: 10px;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.asana-examples img {
+    width: auto;
+    height: 300px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    object-fit: contain;
+  }
+
+figure{
+    width: max-content;
+    background-color: rgb(255, 230, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+    color: #595959;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+}
+
+a{
+    color:rgba(11, 98, 60, 0.736);
+}
+
+#comment-box, #post {
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: dotted;
+    border-color: rgba(0, 255, 145, 0.316);
+    color: #595959;
+}
+
+
+#post:hover{
+    background-color: rgb(255, 230, 0);
+}
