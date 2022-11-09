@@ -4,39 +4,41 @@
         <meta charset="UTF-8">
         <title>Understanding Yoga: Asana</title>
         <link rel="stylesheet" href="./hobby.css">
-        <div class="date">
+    </head>
         
-            <p id="day"></p>
+    <!--NAVIGATION BAR-->
+    <nav id="navbar" class="navbar">
+        <div class="date">
+        <p id="day"></p>
             <script>
-            const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-            const b = new Date();
-            let day = days[b.getDay()];
-            document.getElementById("day").innerHTML = day;
+                const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                const b = new Date();
+                let day = days[b.getDay()];
+                document.getElementById("day").innerHTML = day;
             </script>
 
-<p id="date"></p>
-
-<script>
-const c = new Date();
-document.getElementById("date").innerHTML = c.getDate();
-</script>
-        
+        <p id="date"></p>
+            <script>
+            const c = new Date();
+            document.getElementById("date").innerHTML = c.getDate();
+            </script>
+                    
         <p id="month"></p>
-        <script>
-        const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-        const d = new Date();
-        let month = months[d.getMonth()];
-        document.getElementById("month").innerHTML = month; 
-        </script>
+            <script>
+            const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+            const d = new Date();
+            let month = months[d.getMonth()];
+            document.getElementById("month").innerHTML = month; 
+            </script>
 
         <p id="year"></p>
-        <script>
-        const e = new Date();
-        document.getElementById("year").innerHTML = e.getFullYear();
-        </script>
-        
+            <script>
+            const e = new Date();
+            document.getElementById("year").innerHTML = e.getFullYear();
+            </script>
         </div>
-    </head>
+    </nav>
+    
     <body>
         <div class="header-text">
             <h1>Understanding Yoga: <i>Asana</i></h1>
