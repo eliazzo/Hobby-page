@@ -5,39 +5,33 @@
         <title>Understanding Yoga: Asana</title>
         <link rel="stylesheet" href="./hobby.css">
     </head>
-        
-    <!--NAVIGATION BAR-->
-    <nav id="navbar" class="navbar">
+
         <div class="date">
-        <p id="day"></p>
-            <script>
-                const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-                const b = new Date();
-                let day = days[b.getDay()];
-                document.getElementById("day").innerHTML = day;
-            </script>
-
-        <p id="date"></p>
-            <script>
-            const c = new Date();
-            document.getElementById("date").innerHTML = c.getDate();
-            </script>
-                    
-        <p id="month"></p>
-            <script>
-            const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-            const d = new Date();
-            let month = months[d.getMonth()];
-            document.getElementById("month").innerHTML = month; 
-            </script>
-
-        <p id="year"></p>
-            <script>
-            const e = new Date();
-            document.getElementById("year").innerHTML = e.getFullYear();
-            </script>
+            <p id="day"></p>
+            <p id="date"></p>
+            <p id="month"></p>
+            <p id="year"></p>
         </div>
-    </nav>
+
+    <script defer>
+        const newDate = new Date(); //new Date() creates a new date object with the current date and time
+       
+        const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; // Set days variable to contain weekday array       
+        let day = days[newDate.getDay()]; // getDay() method returns the day of the week
+        document.getElementById("day").innerHTML = day; // Sets p element to day
+               
+        const date = newDate.getDate(); // getDate() method returns the day of the month (1 to 31)
+        document.getElementById("date").innerHTML = date;
+                
+        const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        let month = months[newDate.getMonth()]; // getMonth() returns the month (0 to 11)
+        document.getElementById("month").innerHTML = month; 
+
+        const year = newDate.getFullYear(); // getFullYear() returns the year of the specified date according to local time
+        document.getElementById("year").innerHTML = year;
+    </script>
+        
+    
     
     <body>
         <div class="header-text">
